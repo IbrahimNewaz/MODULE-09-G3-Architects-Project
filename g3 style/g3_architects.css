@@ -10,6 +10,7 @@
 }
 
 /* 🟩 SHARED STYLES🟩 */
+
 .display-flex {
   display: flex;
 }
@@ -24,8 +25,8 @@
   color: #424242;
 }
 
-.dark-3{
-    color: #727272;
+.dark-3 {
+  color: #727272;
 }
 
 /* 🔵 BACKGROUND COLOR 🔵 */
@@ -93,7 +94,6 @@
   max-width: 850px;
   margin: 0 auto;
   text-align: center;
-  margin-bottom: 50px;
 }
 
 .banner-titel {
@@ -101,16 +101,79 @@
   font-weight: bold;
 }
 
-.banner-description{
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.6rem;
-    text-align: center;
-
+.banner-description {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  text-align: center;
 }
 
 .banner-img {
   width: 100%;
+  padding-bottom: 48px;
+  padding-top: 50px;
+}
+
+/* 🟩MAIN PART STYLES🟩 */
+.main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* 🟩TEAMS SECTION AND FEATURES SECTION 🟩 */
+
+/* ❌ Jhonkar bahis idea but its not working in my page ❌*/
+/* .main > section{
+    margin-top: 130px; 
+} */
+/* ❌___________________________________________________❌*/
+
+.teams {
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+.teams-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.teams-img-container img{
+    width: 340px;
+    height: 340px;
+    /* border: 1px solid #424242; */
+    border-radius: 14px;
+    box-shadow: #72727278 2px 3px 3px 4px;
+    stroke: #424242 2px 2px 2px 2px;
+}
+
+.our-features{
+    /* margin-left: 40px; */
+    width: 534px;
+    height: 305px;
+}
+
+.features-titel{
+    font-size: 2.8rem;
+    font-weight: bolder;
+}
+.first{
+    font-size: 2.8rem;
+    font-weight: 500;
+    color: #727272;
+}
+.last{
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #ff900e;
+}
+
+.features-description{
+    font-size: 1rem;
+    font-family: 500;
+    line-height: 1.6rem;
 }
 
 /* 🚩🟩🚩 RESPONSIVE MEDIA QUERY 🚩🟩🚩*/
