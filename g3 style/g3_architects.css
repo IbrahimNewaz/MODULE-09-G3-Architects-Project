@@ -8,3 +8,49 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* 🟩 SHARED STYLES🟩 */
+.display-flex {
+  display: flex;
+}
+
+/* 🔵SHARED COLOR 🔵*/
+.dark-2 {
+  color: #424242;
+}
+.dark-1{
+    color: #131313;
+}
+
+/* 🔵 BACKGROUND COLOR 🔵 */
+.bg-light{
+    background-color: #FF900E10;
+}
+
+/* 🟩 HEADER STYLES🟩 */
+
+/* 🟩 NAV-BAR STYLES🟩 */
+.nav-bar{
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item {
+  list-style: none;
+  margin-right: 30px;
+}
+
+.brand{
+    font-size:3rem ;
+    font-weight: bold;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nav-bar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
