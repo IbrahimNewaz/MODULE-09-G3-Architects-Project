@@ -15,33 +15,61 @@
 }
 
 /* 🔵SHARED COLOR 🔵*/
+
+.dark-1 {
+  color: #131313;
+}
+
 .dark-2 {
   color: #424242;
 }
-.dark-1{
-    color: #131313;
-}
 
 /* 🔵 BACKGROUND COLOR 🔵 */
-.bg-light{
-    background-color: #FF900E10;
+.bg-light {
+  background-color: #ff900e10;
+}
+
+/* 🟧 BUTTON 🟧*/
+.btn-primary {
+  width: 180px;
+  height: 64px;
+  border: none;
+  background-color: #ff900e;
+  border-radius: 8px;
+  padding: 20px 25px;
+  cursor: grab;
+
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.btn-primary:hover {
+  border: 2px solid rgb(177, 2, 2);
+  background-color: #e54105;
+  border-radius: 10px;
+
+  cursor: zoom-in;
+
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 600;
 }
 
 /* 🟩 HEADER STYLES🟩 */
 
 /* 🟩 NAV-BAR STYLES🟩 */
-.nav-bar{
-    justify-content: space-between;
-    align-items: center;
+.nav-bar {
+  justify-content: space-between;
+  align-items: center;
 }
 .nav-item {
   list-style: none;
   margin-right: 30px;
 }
 
-.brand{
-    font-size:3rem ;
-    font-weight: bold;
+.brand {
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 .nav-link {
@@ -50,7 +78,67 @@
   font-weight: 500;
 }
 
-.nav-bar, .banner{
-    max-width: 1440px;
-    margin: 0 auto;
+.nav-bar,
+.banner {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/*🟩 BANNER PART STYLES🟩 */
+.banner-content {
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.banner-titel {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.banner-img {
+  width: 100%;
+}
+
+/* 🚩🟩🚩 RESPONSIVE MEDIA QUERY 🚩🟩🚩*/
+
+/* 🔴SMALL DEVICE - MAX-WIDTH 576PX🔴 */
+
+@media screen and (max-width: 576px) {
+  .nav-bar {
+    flex-direction: column;
+  }
+  
+  .nav-link {
+    flex-direction: row;
+    justify-content: end;
+    align-items: flex-start;
+    gap: 2px;
+  }
+
+  .btn-primary {
+    width: 150px;
+    height: 55px;
+    border: none;
+    background-color: #ff900e;
+    border-radius: 8px;
+    padding: 20px 25px;
+    cursor: grab;
+
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .btn-primary:hover {
+    border: 1px solid rgb(177, 2, 2);
+    background-color: #e54105;
+    border-radius: 8px;
+
+    cursor: zoom-in;
+
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+  }
 }
