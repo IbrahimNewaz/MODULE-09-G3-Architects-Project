@@ -24,6 +24,10 @@
   color: #424242;
 }
 
+.dark-3{
+    color: #727272;
+}
+
 /* 🔵 BACKGROUND COLOR 🔵 */
 .bg-light {
   background-color: #ff900e10;
@@ -97,6 +101,14 @@
   font-weight: bold;
 }
 
+.banner-description{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    text-align: center;
+
+}
+
 .banner-img {
   width: 100%;
 }
@@ -109,7 +121,7 @@
   .nav-bar {
     flex-direction: column;
   }
-  
+
   .nav-link {
     flex-direction: row;
     justify-content: end;
