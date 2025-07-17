@@ -243,6 +243,12 @@
 /* 🔴MEDIUM SIZE DEVICE - MAX-WIDTH 576PX🔴 */
 @media screen and (min-width: 577px) and (max-width: 992px) {
   /* main > team section */
+  .nav-bar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+  }
   .teams {
     flex-direction: row;
     justify-content: space-evenly;
@@ -266,7 +272,9 @@
 @media screen and (min-width: 992px) and (max-width: 1440px) {
   .nav-bar {
     flex-direction: row;
-    padding-left: 25px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
   }
 
   /* main > team section */
