@@ -300,6 +300,7 @@
 
 /* 🔴SMALL SIZE DEVICE - MAX-WIDTH 576PX🔴 */
 
+
 @media screen and (max-width: 576px) {
   .nav-bar {
     flex-direction: column;
@@ -362,7 +363,7 @@
   /* SOME OF FACTS SECTION */
   .some-facts {
     max-width: 100%;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-left: 5px;
     margin-right: 5px;
     display: flex;
